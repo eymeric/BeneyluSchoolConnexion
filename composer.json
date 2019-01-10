@@ -1,0 +1,18 @@
+{
+    "name": "bns/oauth2-client",
+    "require": {
+        "league/oauth2-client": "~0.3"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Jérémie Augustin",
+            "email": "jeremie.augustin@pixel-cookers.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BNS\\": "src/BNS"
+        }
+    }
+}
